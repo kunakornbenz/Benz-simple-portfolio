@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor/system generated directories
+.vscode/
+.system_generated/
+.gemini/

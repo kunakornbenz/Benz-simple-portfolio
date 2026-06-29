@@ -1,0 +1,12 @@
+{
+  "name": "kunakorn-portfolio",
+  "version": "1.0.0",
+  "description": "Digital Marketing Portfolio of Kunakorn Boonsuk",
+  "scripts": {
+    "dev": "npx -y vite",
+    "build": "npx -y vite build",
+    "preview": "npx -y vite preview"
+  },
+  "author": "Kunakorn Boonsuk",
+  "license": "ISC"
+}

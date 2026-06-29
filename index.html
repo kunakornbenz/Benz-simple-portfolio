@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunakorn Boonsuk | Digital Marketing Specialist Portfolio</title>
+    <meta name="description" content="Portfolio of Kunakorn Boonsuk, a results-driven Digital Marketing Specialist specializing in Paid Media (ROAS), SaaS growth hacking, and organic SEO traffic generation.">
+    <meta name="keywords" content="Kunakorn Boonsuk, Digital Marketing, Growth Marketing, Paid Ads, SEO, ROAS, Performance Marketing, Portfolio">
+    <meta name="author" content="Kunakorn Boonsuk">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kunakorn Boonsuk | Digital Marketing Specialist">
+    <meta property="og:description" content="Data-driven marketing portfolio demonstrating high-impact campaigns in SaaS growth, paid social scaling, and technical SEO.">
+    <meta property="og:image" content="https://kunakorn-boonsuk.github.io/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Kunakorn Boonsuk | Digital Marketing Specialist">
+    <meta property="twitter:description" content="Data-driven marketing portfolio demonstrating high-impact campaigns.">
+
+    <!-- Fonts: JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="text-accent">&lt;</span>KB<span class="text-cyan">.dev</span><span class="text-accent">/&gt;</span>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation" id="navToggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#about" class="nav-link">whoami</a></li>
+                    <li><a href="#projects" class="nav-link">projects</a></li>
+                    <li><a href="#calculator" class="nav-link">roi-calc</a></li>
+                    <li><a href="#contact" class="nav-link">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="about" class="hero">
+            <div class="grid-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="terminal-badge">
+                        <span class="badge-dot red"></span>
+                        <span class="badge-dot yellow"></span>
+                        <span class="badge-dot green"></span>
+                        <span class="badge-text">bash &bull; active_session</span>
+                    </div>
+                    <div class="terminal-intro">
+                        <span class="terminal-prompt">kunakorn@marketing:~$</span> <span class="typed-command">whoami</span>
+                    </div>
+                    <h1 class="hero-name">Kunakorn Boonsuk</h1>
+                    <h2 class="hero-title">
+                        Digital Marketing <span class="gradient-text">Growth Specialist</span>
+                    </h2>
+                    <p class="hero-desc">
+                        Engineering digital growth through data-driven performance marketing, high-ROAS paid acquisition, and scalable SEO search authority.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Campaigns</a>
+                        <a href="#calculator" class="btn btn-secondary">Test ROI Calc</a>
+                    </div>
+                </div>
+                
+                <!-- Performance Snapshot Dashboard Widget -->
+                <div class="hero-visual">
+                    <div class="widget-card glass">
+                        <div class="widget-header">
+                            <span class="widget-title">performance_metrics.json</span>
+                            <span class="status-indicator">ONLINE</span>
+                        </div>
+                        <div class="widget-body">
+                            <div class="metric-row">
+                                <div class="metric-col">
+                                    <span class="label">AD_SPEND_MANAGED</span>
+                                    <span class="value cyan-glow">$500K+</span>
+                                </div>
+                                <div class="metric-col">
+                                    <span class="label">AVG_ROAS_MULTIPLIER</span>
+                                    <span class="value purple-glow">4.8x</span>
+                                </div>
+                            </div>
+                            <div class="metric-row">
+                                <div class="metric-col">
+                                    <span class="label">ORGANIC_TRAFFIC_SEO</span>
+                                    <span class="value green-glow">+320%</span>
+                                </div>
+                                <div class="metric-col">
+                                    <span class="label">CAC_REDUCTION_YOY</span>
+                                    <span class="value">-32%</span>
+                                </div>
+                            </div>
+                            <div class="chart-container-mini">
+                                <svg viewBox="0 0 300 80" class="mini-chart">
+                                    <defs>
+                                        <linearGradient id="gradient-chart" x1="0" y1="0" x2="0" y2="1">
+                                            <stop offset="0%" stop-color="var(--color-primary)" stop-opacity="0.4"/>
+                                            <stop offset="100%" stop-color="var(--color-primary)" stop-opacity="0.0"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M 0 70 Q 50 30, 100 50 T 200 10 T 300 5" fill="none" stroke="var(--color-secondary)" stroke-width="2.5"></path>
+                                    <path d="M 0 70 Q 50 30, 100 50 T 200 10 T 300 5 L 300 80 L 0 80 Z" fill="url(#gradient-chart)"></path>
+                                    <circle cx="200" cy="10" r="4" fill="var(--color-primary)"></circle>
+                                    <text x="210" y="15" fill="var(--text-primary)" font-size="10" font-family="inherit">Target Met</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="terminal-prompt">kunakorn@marketing:~$</span>
+                    <h2 class="section-title">ls -la ./campaigns/</h2>
+                    <p class="section-subtitle">Real marketing case studies driving scalable growth and commercial success.</p>
+                </div>
+
+                <div class="project-grid">
+                    
+                    <!-- Project 1: SaaS Launch -->
+                    <article class="project-card glass">
+                        <div class="card-glow"></div>
+                        <div class="project-header">
+                            <span class="project-tag tag-purple">Paid Acquisition</span>
+                            <h3 class="project-title">SaaS Launch: Scale-Up 2025</h3>
+                        </div>
+                        <p class="project-description">
+                            Engineered a multi-channel growth engine for an AI-powered SaaS product. Scaled acquisition velocity while lowering customer acquisition costs via hyper-segmented search and LinkedIn custom audiences.
+                        </p>
+                        
+                        <div class="project-visualization">
+                            <div class="bar-chart-widget">
+                                <div class="bar-group">
+                                    <div class="bar-bar val-1"></div>
+                                    <span class="bar-label">Month 1</span>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-bar val-2"></div>
+                                    <span class="bar-label">Month 2</span>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-bar val-3"></div>
+                                    <span class="bar-label">Month 3</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-num text-purple">+150%</span>
+                                <span class="metric-label">Signups</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-num text-cyan">-32%</span>
+                                <span class="metric-label">CPA reduction</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-num">4.2%</span>
+                                <span class="metric-label">Conversion Rate</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Google Ads</span>
+                            <span>LinkedIn Ads</span>
+                            <span>A/B Testing</span>
+                            <span>Analytics</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: E-Commerce ROAS Booster -->
+                    <article class="project-card glass">
+                        <div class="card-glow"></div>
+                        <div class="project-header">
+                            <span class="project-tag tag-cyan">Paid Social</span>
+                            <h3 class="project-title">ROAS Booster: Lifestyle Brand</h3>
+                        </div>
+                        <p class="project-description">
+                            Overhauled Meta Ads account architecture and implemented full-funnel content testing. Boosted landing page speed and optimized checkout flows to achieve sustained high returns during peak sales seasons.
+                        </p>
+
+                        <div class="project-visualization">
+                            <div class="roas-gauge-container">
+                                <div class="roas-gauge">
+                                    <div class="gauge-center">
+                                        <span class="gauge-title">ROAS</span>
+                                        <span class="gauge-val text-cyan">4.8x</span>
+                                    </div>
+                                </div>
+                                <div class="gauge-labels">
+                                    <span class="badge">Baseline: 2.2x</span>
+                                    <span class="badge active">Target: 4.5x+</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-num text-cyan">4.8x</span>
+                                <span class="metric-label">ROAS Achieved</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-num text-purple">$280K</span>
+                                <span class="metric-label">Gross Revenue</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-num">+18%</span>
+                                <span class="metric-label">LTV Improvement</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Meta Ads</span>
+                            <span>TikTok Ads</span>
+                            <span>CRO</span>
+                            <span>Shopify Plus</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Fintech SEO Overhaul -->
+                    <article class="project-card glass">
+                        <div class="card-glow"></div>
+                        <div class="project-header">
+                            <span class="project-tag tag-green">Organic Search</span>
+                            <h3 class="project-title">Traffic Revolution: FinTech Hub</h3>
+                        </div>
+                        <p class="project-description">
+                            Rebuilt structural taxonomy and completed content pruning on a high-growth fintech web portal. Engineered programmatic schema templates and generated backlinks from authoritative financial publications.
+                        </p>
+
+                        <div class="project-visualization">
+                            <div class="seo-chart-container">
+                                <svg viewBox="0 0 300 120" class="seo-chart">
+                                    <path d="M0,110 L40,105 L80,95 L120,70 L160,50 L200,30 L240,15 L280,5" fill="none" stroke="var(--color-green)" stroke-width="3"></path>
+                                    <circle cx="280" cy="5" r="4" fill="var(--color-green)"></circle>
+                                    <path d="M0,110 L40,105 L80,95 L120,70 L160,50 L200,30 L240,15 L280,5 L280,120 L0,120 Z" fill="rgba(16, 185, 129, 0.15)"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-num text-green">+320%</span>
+                                <span class="metric-label">Organic Visits</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-num text-purple">120+</span>
+                                <span class="metric-label">Top-3 Keywords</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-num">+45%</span>
+                                <span class="metric-label">Lead Gen (MQLs)</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Technical SEO</span>
+                            <span>Schema.org</span>
+                            <span>Content Strategy</span>
+                            <span>Ahrefs</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Widget Section -->
+        <section id="calculator" class="calculator">
+            <div class="container">
+                <div class="section-header">
+                    <span class="terminal-prompt">kunakorn@marketing:~$</span>
+                    <h2 class="section-title">run ./roi_simulator.sh</h2>
+                    <p class="section-subtitle">Simulate real campaign ROI and CAC metrics based on actual industry math.</p>
+                </div>
+
+                <div class="calc-grid glass">
+                    <div class="calc-inputs">
+                        <h3 class="calc-section-title">Campaign Variables</h3>
+                        
+                        <div class="input-group">
+                            <label for="spend">Ad Spend ($)</label>
+                            <div class="input-wrapper">
+                                <span class="prefix">$</span>
+                                <input type="number" id="spend" value="10000" min="0" step="100">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="clicks">Ad Clicks</label>
+                            <div class="input-wrapper">
+                                <input type="number" id="clicks" value="5000" min="0" step="100">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="convRate">Conversion Rate (%)</label>
+                            <div class="input-wrapper">
+                                <input type="number" id="convRate" value="3.5" min="0" max="100" step="0.1">
+                                <span class="suffix">%</span>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="aov">Average Order Value / Lead Value ($)</label>
+                            <div class="input-wrapper">
+                                <span class="prefix">$</span>
+                                <input type="number" id="aov" value="120" min="0" step="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc-outputs">
+                        <h3 class="calc-section-title">Simulated Results</h3>
+                        
+                        <div class="kpi-grid">
+                            <div class="kpi-card">
+                                <span class="kpi-label">CPC (Cost Per Click)</span>
+                                <span class="kpi-value" id="cpcOut">$2.00</span>
+                            </div>
+                            <div class="kpi-card">
+                                <span class="kpi-label">Conversions</span>
+                                <span class="kpi-value" id="conversionsOut">175</span>
+                            </div>
+                            <div class="kpi-card">
+                                <span class="kpi-label">CAC (Cost Per Acquisition)</span>
+                                <span class="kpi-value" id="cacOut">$57.14</span>
+                            </div>
+                            <div class="kpi-card">
+                                <span class="kpi-label">Total Revenue</span>
+                                <span class="kpi-value" id="revenueOut">$21,000.00</span>
+                            </div>
+                        </div>
+
+                        <div class="roi-bar-container">
+                            <div class="roi-summary">
+                                <div>
+                                    <span class="kpi-label">Return on Ad Spend (ROAS)</span>
+                                    <span class="kpi-large" id="roasOut">2.1x</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="kpi-label">ROI (Return on Investment)</span>
+                                    <span class="kpi-large" id="roiOut">110.0%</span>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="roiProgress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="terminal-prompt">kunakorn@marketing:~$</span>
+                    <h2 class="section-title">ssh connect@boonsuk.com</h2>
+                    <p class="section-subtitle">Let's discuss growth metrics, paid media scaling, or strategic consulting opportunities.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact details -->
+                    <div class="contact-info glass">
+                        <div class="terminal-badge">
+                            <span class="badge-dot red"></span>
+                            <span class="badge-dot yellow"></span>
+                            <span class="badge-dot green"></span>
+                            <span class="badge-text">system_sysinfo.log</span>
+                        </div>
+                        <div class="contact-details">
+                            <p class="detail-row">
+                                <span class="detail-label">LOCATION:</span>
+                                <span class="detail-val">Bangkok, Thailand</span>
+                            </p>
+                            <p class="detail-row">
+                                <span class="detail-label">EMAIL:</span>
+                                <a href="mailto:kunakorn.boonsuk@gmail.com" class="detail-val text-cyan">kunakorn.boonsuk@gmail.com</a>
+                            </p>
+                            <p class="detail-row">
+                                <span class="detail-label">LINKEDIN:</span>
+                                <a href="https://linkedin.com/in/kunakorn-boonsuk" target="_blank" rel="noopener" class="detail-val text-purple">linkedin.com/in/kunakorn-boonsuk</a>
+                            </p>
+                            <p class="detail-row">
+                                <span class="detail-label">GITHUB:</span>
+                                <a href="https://github.com/kunakorn-boonsuk" target="_blank" rel="noopener" class="detail-val text-green">github.com/kunakorn-boonsuk</a>
+                            </p>
+                        </div>
+                        <div class="terminal-msg">
+                            <p class="text-muted">// Ready to optimize your funnel metrics and scale your conversion growth.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container glass">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="formName">NAME</label>
+                                <input type="text" id="formName" required placeholder="e.g. Satoshi Nakamoto">
+                            </div>
+                            <div class="form-group">
+                                <label for="formEmail">EMAIL</label>
+                                <input type="email" id="formEmail" required placeholder="e.g. satoshi@bitcoin.org">
+                            </div>
+                            <div class="form-group">
+                                <label for="formMessage">MESSAGE</label>
+                                <textarea id="formMessage" required rows="4" placeholder="Let's build a new customer acquisition flow..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Send Message
+                            </button>
+                        </form>
+                        <div id="formSuccess" class="form-success-alert hidden">
+                            <div class="alert-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="alert-text">
+                                <strong>Message Sent Successfully!</strong>
+                                <span>I will review your marketing inquiry and get back to you within 24 hours.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Kunakorn Boonsuk. All rights reserved.</p>
+            <p class="text-muted">Built with JetBrains Mono, Pure HTML/CSS, and Javascript. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
